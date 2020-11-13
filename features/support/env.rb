@@ -5,7 +5,7 @@ require 'rspec'
 
 caps = {}
 # Set URL of the application under test
-caps['app'] = (File.join(File.dirname(__FILE__), 'FoodTracker.app'))
+caps['app'] = (File.join(File.dirname(__FILE__), 'FSAR.app'))
 
 # Specify device and os_version for testing
 caps['deviceName'] = 'iPhone 11 Pro'
