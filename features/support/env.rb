@@ -21,4 +21,10 @@ appium_driver = Appium::Driver.new({
                                        'appium_lib' => {
                                            :server_url => "http://0.0.0.0:4723/wd/hub"
                                        }}, true)
-$driver = appium_driver.start_driver
+Before do
+  @driver = appium_driver.start_driver
+end
+
+After do
+  @driver.quit
+end
