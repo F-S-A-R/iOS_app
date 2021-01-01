@@ -9,7 +9,7 @@ caps['app'] = (File.join(File.dirname(__FILE__), 'FSAR.app'))
 
 # Specify device and os_version for testing
 caps['deviceName'] = 'iPhone 11 Pro'
-caps['platformVersion'] = '14.0'
+caps['platformVersion'] = '14.3'
 caps['automationName'] = 'XCUITest'
 
 #Set the platform name
