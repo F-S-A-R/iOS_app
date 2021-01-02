@@ -6,8 +6,6 @@ caps['app'] = (File.join(File.dirname(__FILE__), 'FSAR.app'))
 caps['deviceName'] = 'iPhone 11 Pro'
 caps['platformVersion'] = '14.3'
 caps['automationName'] = 'XCUITest'
-
-#Set the platform name
 caps['platformName'] = 'iOS'
 
 # Initialize the remote Webdriver and desired capabilities defined above
