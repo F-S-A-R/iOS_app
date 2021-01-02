@@ -22,9 +22,10 @@ AfterConfiguration do
   p $eyes.match_level
 end
 
-Before do
+Before do |scenario|
   @driver = appium_driver.start_driver
   @driver.manage.timeouts.implicit_wait = 5
+  $eyes.open(app_name: 'FSAR', test_name: "#{scenario.name}", driver: @driver)
 end
 
 After do
