@@ -24,6 +24,7 @@ end
 
 Before do
   @driver = appium_driver.start_driver
+  @driver.manage.timeouts.implicit_wait = 5
 end
 
 After do
