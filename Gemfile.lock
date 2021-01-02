@@ -152,7 +152,6 @@ DEPENDENCIES
   byebug
   cucumber
   eyes_appium
-  eyes_selenium
   rspec
   selenium-webdriver
 

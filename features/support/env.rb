@@ -1,9 +1,7 @@
 require 'appium_lib'
-require 'selenium-webdriver'
 require 'byebug'
 require 'rspec'
 require 'eyes_appium'
-require 'eyes_selenium'
 
 caps = {}
 # Set URL of the application under test
