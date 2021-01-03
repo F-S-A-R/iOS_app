@@ -1,4 +1,7 @@
 *.idea
 *.DS_Store
+# Ignore Byebug command history file.
+.byebug_history
+
 *.byebug_history
 *.env
