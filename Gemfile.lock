@@ -58,6 +58,7 @@ GEM
     diff-lcs (1.4.4)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.6)
     eventmachine (1.2.7)
     eyes_appium (3.17.21)
       appium_lib (~> 10.6.0)
@@ -151,6 +152,7 @@ DEPENDENCIES
   appium_lib
   byebug
   cucumber
+  dotenv
   eyes_appium
   rspec
   selenium-webdriver

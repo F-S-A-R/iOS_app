@@ -1,6 +1,6 @@
 AfterConfiguration do
   $eyes = Applitools::Appium::Eyes.new
-  $eyes.api_key = 'mpPWTHC2CNz5wPajbzzo8U104mOQ0s2HcfbOEILr1iC108g110'
+  $eyes.api_key = ENV['APPLITOOLS_KEY']
   p $eyes.match_level
 end
 

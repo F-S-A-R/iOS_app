@@ -1,6 +1,8 @@
 require 'byebug'
 require 'rspec'
 require 'eyes_appium'
+require 'dotenv'
+Dotenv.load('./.env')
 
 caps = {}
 # Set URL of the application under test
